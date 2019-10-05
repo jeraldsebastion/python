@@ -42,8 +42,41 @@ x = "Sally" # x is now of type str
 print(x)
 
 
+#string varblies can be declared both " "or' '
 
+x="john"
+x='john'
+print(x)
 
+"""
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+"""
 
+#Python allows you to assign values to multiple variables in one line:
+x,y,z="orange","apple","banana"
 
+print(x)
+print(y)
+print(z)
 
+#And you can assign the same value to multiple variables in one line:
+
+X=Y=Z="orange"
+
+print(X)
+print(Y)
+print(Z)
+
+"""
+Output Variables
+The Python print statement is often used to output variables.
+
+To combine both text and a variable, Python uses the + character:
+
+"""
+x="orange"
+print("orange in "+ x+ " color")
